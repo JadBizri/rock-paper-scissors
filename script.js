@@ -45,7 +45,7 @@ function playRound(playerSelection, computerSelection){
             return "You Lose! Scissors beat Paper!";
     }
     //if user has scissors...
-    else{
+    else if(player === 'SCISSORS'){
         //...and computer has paper, user wins
         if(computer === 'PAPER')
             return "You Win! Scissors beat Paper!";
@@ -53,9 +53,12 @@ function playRound(playerSelection, computerSelection){
         else
             return "You Lose! Rock beats Scissors!";
     }
+    //if user has wrong input, then error
+    else
+        return "Error: Player did not choose weapon correctly."
 }
 
-const player = 'roCk';
+const player = 'paer';
 const computer = getComputerChoice();
 console.log("Player: " + player);
 console.log("Computer: " + computer);
