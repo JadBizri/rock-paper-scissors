@@ -106,4 +106,4 @@ function game(){
 }
 
 //start game
-console.log(game());
+//console.log(game());
