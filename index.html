@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>Rock Paper Scissors</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
 </head>
+
 <body>
     <div class="container">
-        <h1>Rock Paper Scissors</h1>
-        <img src="./images/rock-paper-scissors.png">
-        <div class="buttons-container">
-            <button>Rock</button>
-            <button>Paper</button>
-            <button>Scissors</button>
+        <div class="title">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+
+        <div class="score-container">
+            <div class="score-log">
+                <img src="./images/user.png" alt="user icon">
+                <div class="player-choice"></div>
+            </div>
+
+            <div class="score-log">
+                <div class="score">0 - 0</div>
+                <div class="round-number"></div>
+            </div>
+
+            <div class="score-log">
+                <img src="./images/monitor.png" alt="computer icon">
+                <div class="computer-choice"></div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <img class="hover-image" src="./images/stone.png" alt="rock icon">
+            <img class="hover-image" src="./images/new-document.png" alt="paper icon">
+            <img class="hover-image" src="./images/scissor.png" alt="scissors icon">
+        </div>
+
+        <div class="footer">
+            <div>© 2023 The Odin Project</div>
+            <div>GitHub: <a id="github" href="https://www.github.com/JadBizri" target="_blank">@JadBizri</a></div>
         </div>
     </div>
 
     <script src="./script.js" defer></script>
 </body>
+
 </html>
