@@ -21,23 +21,23 @@ This project is implemented using JavaScript, used for the game's logic. A user 
 - Rock Icon:
     - Description: Animated Rock Icon
     - Creator: 'Icongeek26' on Flaticon
-    - Source: https://www.flaticon.com/free-icons/rock"
+    - Source: https://www.flaticon.com/free-icons/rock
 - Paper Icon:
     - Description: Animated Paper Icon
     - Creator: User 'Freepik' on Flaticon
-    - Source: "https://www.flaticon.com/free-icons/paper"
+    - Source: https://www.flaticon.com/free-icons/paper
 - Scissors Icon:
     - Description: Animated Scissors Icon
     - Creator: 'Gulraiz' on Flaticon
-    - Source: "https://www.flaticon.com/free-icons/scissors"
+    - Source: https://www.flaticon.com/free-icons/scissors
 - User Icon:
     - Description: Animated User Icon
     - Creator: 'Freepik' on Flaticon
-    - Source: "https://www.flaticon.com/free-icons/user"
+    - Source: https://www.flaticon.com/free-icons/user
 - Computer Icon:
     - Description: Animated Computer Icon
     - Creator: 'xnimrodx' on Flaticon
-    - Source: "https://www.flaticon.com/free-icons/computer"
+    - Source: https://www.flaticon.com/free-icons/computer
 
 # Installation
 
